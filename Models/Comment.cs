@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using BlogProject.Enums;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.ComponentModel.DataAnnotations;
 
@@ -25,6 +26,8 @@ namespace BlogProject.Models
         [Display(Name = "Moderated Comment")]
         public string ModeratedBody { get; set; }
 
+        // Reasons why Comment was Moderated
+        public ModerationType ModerationType { get; set; }
 
         // Navigation Properties
         public virtual Post Post { get; set; }
