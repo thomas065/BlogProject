@@ -31,7 +31,7 @@ namespace BlogProject.Models
         [Display(Name = "Blog Image")]
         public byte[] ImageData { get; set; }
 
-        [Display(Name = "Image Image")]
+        [Display(Name = "Image Type")]
         public string ContentType { get; set; }
 
         [NotMapped]
