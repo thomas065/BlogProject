@@ -62,8 +62,8 @@ namespace BlogProject.Services
             //Step 1: Creates a new instance of BlogUser
             var adminUser = new BlogUser()
             {
-                Email = "thomasjbell065@gmail.com",
-                UserName = "thomasjbell065@gmail.com",
+                Email = "thomasjbell065@mailinator.com",
+                UserName = "thomasjbell065@mailinator.com",
                 FirstName = "Thomas",
                 LastName = "Bell",
                 PhoneNumber = "(800) 555-1212",
@@ -79,8 +79,8 @@ namespace BlogProject.Services
             //Step 4 Create Moderator user
             var modUser = new BlogUser()
             {
-                Email = "davidbanner@hotmail.com",
-                UserName = "davidbanner@hotmail.com",
+                Email = "davidbanner@mailinator.com",
+                UserName = "davidbanner@mailinator.com",
                 FirstName = "David",
                 LastName = "Banner",
                 PhoneNumber = "(800) 555-1213",
